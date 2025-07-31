@@ -1,36 +1,71 @@
-# AluraStore Latam - Challenge Data Science
+# Análisis de Datos AluraStore Latam 📊
 
-Este proyecto analiza datos de ventas, productos, envíos y calificaciones de cuatro tiendas en Latinoamérica usando Python y Jupyter Notebook.
+Este proyecto analiza datos de ventas y métricas de rendimiento de cuatro tiendas de AluraStore en Latinoamérica.
 
-## Estructura del análisis
+## 📋 Contenido del Análisis
 
-- **Importación de datos:** Se cargan los datos de las cuatro tiendas desde archivos CSV.
-- **Facturación:** Se calcula y grafica el ingreso total por tienda (pie chart).
-- **Ventas por categoría:** Se analiza la cantidad de ventas por cada categoría de producto.
-- **Calificación promedio:** Se muestra la calificación promedio de cada tienda (barplot).
-- **Productos más y menos vendidos:** Se identifican y grafican los productos más y menos vendidos por tienda.
-- **Envío promedio:** Se analiza el costo de envío promedio por tienda (lineplot).
-- **Heatmap geográfico:** Se visualiza la densidad de ventas por ubicación (latitud y longitud).
+1. **Análisis de Facturación**
+   - Cálculo de ingresos totales por tienda
+   - Visualización de proporción de ingresos (gráfico circular)
 
-## Requisitos
+2. **Ventas por Categoría**
+   - Conteo de ventas por categoría de producto
+   - Gráficos de barras por tienda
+
+3. **Calificación Promedio**
+   - Cálculo de calificación media por tienda
+   - Visualización comparativa (gráfico de barras)
+
+4. **Productos Más y Menos Vendidos**
+   - Top 10 productos más vendidos por tienda
+   - Top 10 productos menos vendidos por tienda
+   - Visualización con gráficos de línea
+
+5. **Análisis de Envíos**
+   - Costo promedio de envío por tienda
+   - Visualización con gráfico de línea
+
+## 🛠️ Tecnologías Utilizadas
 
 - Python 3.8+
-- Jupyter Notebook
-- pandas
-- matplotlib
-- seaborn
-- scipy (para el heatmap geográfico)
+- Pandas (manipulación de datos)
+- Matplotlib (visualizaciones)
+- Seaborn (visualizaciones estadísticas)
 
-Instala los paquetes necesarios con:
+## 📦 Instalación
 
+1. Clona el repositorio:
 ```bash
-pip install pandas matplotlib seaborn scipy
+git clone [url-del-repositorio]
 ```
 
-## Uso
+2. Instala las dependencias:
+```bash
+pip install pandas matplotlib seaborn
+```
 
-Abre el archivo `AluraStoreLatam.ipynb` en Jupyter Notebook o Visual Studio Code y ejecuta las celdas para ver el análisis y los gráficos.
+## 🚀 Uso
 
-## Créditos
+1. Abre el notebook `AluraStoreLatam.ipynb`
+2. Ejecuta las celdas en orden
+3. Analiza los resultados y gráficos generados
 
-Desarrollado para el Challenge Data Science Latam de Alura.
+## 📊 Resultados Principales
+
+- Distribución de ingresos entre tiendas
+- Patrones de venta por categoría
+- Evaluación de satisfacción del cliente
+- Identificación de productos estrella y productos con bajo rendimiento
+- Análisis de costos de envío
+
+## 👥 Autor
+
+[Tu Nombre]
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT - mira el archivo `LICENSE.md` para detalles
+
+## 🎯 Proyecto Challenge Data Science - Alura Latam
+
+Desarrollado como parte del Challenge Data Science de Alura Latam, enfocado en el análisis de datos comerciales.
